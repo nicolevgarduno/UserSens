@@ -1,2 +1,31 @@
-# UserSens
-Final project for 05-499 at CMU
+## Deployment
+
+To clone this project 
+```bash
+  git clone https://github.com/your-username/your-repo-name.git
+  cd your-repo-name
+```
+
+This project also requires Intel architecture (x86_64). For macOS, use:
+```bash
+arch -x86_64 /usr/bin/python3 -m venv venv
+source venv/bin/activate
+```
+
+For Windows you can create a venv using:
+```bash
+arch -x86_64 /usr/bin/python3 -m venv venv
+source venv/bin/activate
+```
+
+After creating a virtual environment, install required packages using requirements.txt file. Dependencies may mess up if you bare metal this project, so it is recommended to use a venv:
+```bash
+pip install -r requirements.txt
+```
+
+### When Re-Running Project:
+Whenever you run to the project, pull from main and activate venv:
+```bash
+git pull origin main
+source venv/bin/activate
+```
