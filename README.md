@@ -5,6 +5,13 @@ To clone this project
   git clone https://github.com/nicolevgarduno/UserSens.git
   cd UserSens
 ```
+You will also need to clone the following two repos:
+```bash
+git clone https://github.com/antoinelame/GazeTracking.git
+git clone https://github.com/davisking/dlib.git
+```
+
+
 
 This project also requires Intel architecture (x86_64). For macOS, use:
 ```bash
