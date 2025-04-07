@@ -2,8 +2,8 @@
 
 To clone this project 
 ```bash
-  git clone https://github.com/your-username/your-repo-name.git
-  cd your-repo-name
+  git clone https://github.com/nicolevgarduno/UserSens.git
+  cd UserSens
 ```
 
 This project also requires Intel architecture (x86_64). For macOS, use:
