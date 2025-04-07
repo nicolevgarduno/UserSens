@@ -10,7 +10,8 @@ You will also need to clone the following two repos:
 git clone https://github.com/antoinelame/GazeTracking.git
 git clone https://github.com/davisking/dlib.git
 ```
-
+ - [GazeTracking](https://github.com/antoinelame/GazeTracking)
+ - [dlib C++ library](https://github.com/davisking/dlib)
 
 
 This project also requires Intel architecture (x86_64). For macOS, use:
